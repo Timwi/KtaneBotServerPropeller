@@ -66,7 +66,7 @@ namespace KTANEBotServer
 			};
 
 			runner.StdoutText += text => outputBuilder.Append(text);
-			runner.StdoutText += text => outputBuilder.Append(text);
+			runner.StderrText += text => outputBuilder.Append(text);
 
 			runner.StartAndWait();
 
