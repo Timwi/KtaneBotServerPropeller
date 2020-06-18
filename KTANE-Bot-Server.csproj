@@ -51,15 +51,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Github\Timwi\Propeller\API\PropellerApi.csproj">
+    <ProjectReference Include="..\..\Propeller\API\PropellerApi.csproj">
       <Project>{5770EE79-8340-41FB-9B8E-EB4A3C487FF1}</Project>
       <Name>PropellerApi</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Github\Timwi\RT.Servers\Src\RT.Servers.csproj">
+    <ProjectReference Include="..\..\RT.Servers\Src\RT.Servers.csproj">
       <Project>{a7333c19-56a9-4a8e-a196-7648666ef26a}</Project>
       <Name>RT.Servers</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Github\Timwi\RT.Util\RT.Util.Core\RT.Util.Core.csproj">
+    <ProjectReference Include="..\..\RT.Util\RT.Util.Core\RT.Util.Core.csproj">
       <Project>{1239c016-12e4-4f48-b75f-b2fd251a0416}</Project>
       <Name>RT.Util.Core</Name>
     </ProjectReference>

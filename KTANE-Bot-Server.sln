@@ -1,15 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTANE-Bot-Server", "KTANE-Bot-Server.csproj", "{5340ABFF-8546-4090-BCC4-0760A6CFB832}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropellerApi", "C:\Github\Timwi\Propeller\API\PropellerApi.csproj", "{5770EE79-8340-41FB-9B8E-EB4A3C487FF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropellerApi", "..\..\Propeller\API\PropellerApi.csproj", "{5770EE79-8340-41FB-9B8E-EB4A3C487FF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RT.Servers", "C:\Github\Timwi\RT.Servers\Src\RT.Servers.csproj", "{A7333C19-56A9-4A8E-A196-7648666EF26A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RT.Servers", "..\..\RT.Servers\Src\RT.Servers.csproj", "{A7333C19-56A9-4A8E-A196-7648666EF26A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Util.Core", "C:\Github\Timwi\RT.Util\RT.Util.Core\RT.Util.Core.csproj", "{1239C016-12E4-4F48-B75F-B2FD251A0416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Util.Core", "..\..\RT.Util\RT.Util.Core\RT.Util.Core.csproj", "{1239C016-12E4-4F48-B75F-B2FD251A0416}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Serialization", "..\..\RT.Util\RT.Serialization\RT.Serialization.csproj", "{87D7012B-B231-44E7-A9AB-88A9B7786914}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Util", "..\..\RT.Util\RT.Util\RT.Util.csproj", "{33CA71EF-3EF8-4C25-9647-1FA73DF5B500}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Serialization.Json", "..\..\RT.Util\RT.Serialization.Json\RT.Serialization.Json.csproj", "{4D70CE3B-1562-4BDF-AC73-37154B399A1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Json", "..\..\RT.Util\RT.Json\RT.Json.csproj", "{F861F2EE-911C-4598-AF4A-5B9499E8E566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Serialization.Xml", "..\..\RT.Util\RT.Serialization.Xml\RT.Serialization.Xml.csproj", "{94B3CF6F-B761-4AEE-B5A4-4DAD294626D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RT.TagSoup", "..\..\RT.TagSoup\Src\RT.TagSoup.csproj", "{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.PostBuild", "..\..\RT.Util\RT.PostBuild\RT.PostBuild.csproj", "{56B08E08-1DB8-433B-914A-50D41B7157C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RT.Serialization.Binary", "..\..\RT.Util\RT.Serialization.Binary\RT.Serialization.Binary.csproj", "{B2FC8C3C-85B1-448F-A03E-4F44C8B8C7E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +49,38 @@ Global
 		{1239C016-12E4-4F48-B75F-B2FD251A0416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1239C016-12E4-4F48-B75F-B2FD251A0416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1239C016-12E4-4F48-B75F-B2FD251A0416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D7012B-B231-44E7-A9AB-88A9B7786914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D7012B-B231-44E7-A9AB-88A9B7786914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D7012B-B231-44E7-A9AB-88A9B7786914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D7012B-B231-44E7-A9AB-88A9B7786914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CA71EF-3EF8-4C25-9647-1FA73DF5B500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CA71EF-3EF8-4C25-9647-1FA73DF5B500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CA71EF-3EF8-4C25-9647-1FA73DF5B500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CA71EF-3EF8-4C25-9647-1FA73DF5B500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D70CE3B-1562-4BDF-AC73-37154B399A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D70CE3B-1562-4BDF-AC73-37154B399A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D70CE3B-1562-4BDF-AC73-37154B399A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D70CE3B-1562-4BDF-AC73-37154B399A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F861F2EE-911C-4598-AF4A-5B9499E8E566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F861F2EE-911C-4598-AF4A-5B9499E8E566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F861F2EE-911C-4598-AF4A-5B9499E8E566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F861F2EE-911C-4598-AF4A-5B9499E8E566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B3CF6F-B761-4AEE-B5A4-4DAD294626D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B3CF6F-B761-4AEE-B5A4-4DAD294626D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B3CF6F-B761-4AEE-B5A4-4DAD294626D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B3CF6F-B761-4AEE-B5A4-4DAD294626D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F80D916-8999-45D8-ACB2-FFA7E2698FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B08E08-1DB8-433B-914A-50D41B7157C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B08E08-1DB8-433B-914A-50D41B7157C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B08E08-1DB8-433B-914A-50D41B7157C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B08E08-1DB8-433B-914A-50D41B7157C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FC8C3C-85B1-448F-A03E-4F44C8B8C7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FC8C3C-85B1-448F-A03E-4F44C8B8C7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FC8C3C-85B1-448F-A03E-4F44C8B8C7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FC8C3C-85B1-448F-A03E-4F44C8B8C7E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
