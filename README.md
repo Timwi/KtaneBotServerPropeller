@@ -1,0 +1,2 @@
+# KTANE Bot Server
+This is a little server using [Propeller](https://github.com/Timwi/Propeller) so that some functionality of the [bot](https://github.com/samfun123/KTANE-Bot) can be accessed regardless if it's online or not.
